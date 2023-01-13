@@ -12,8 +12,6 @@ class ToDoListViewController: UITableViewController {
         super.viewDidLoad()
         print(dataFilePath)
         
-//        if let items = defaults.array(forKey: "ToDoistArray") as? [Item] {
-//            itemArray = items
 //
             loadItems()
             
